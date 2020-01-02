@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorPrimary"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Back"
+            android:id="@+id/tvback"
+            android:textColor="@color/colorWhite"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="4dp"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginBottom="15dp"
+        android:background="@color/colorBitterSweet">
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp">
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/moduluiux1" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="240dp"
+            android:layout_marginLeft="5dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/tvmodul1"
+            android:text="Modul pertemuan 1 Pengenalan UIUX Desaign pattern"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginBottom="15dp"
+        android:background="@color/colorBitterSweet">
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp">
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/moduluiux1" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvmodul2"
+            android:layout_width="259dp"
+            android:layout_marginLeft="5dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="Modul pertemuan 2 Pengenalan Layout"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginBottom="15dp"
+        android:background="@color/colorBitterSweet">
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp">
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/moduluiux1" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvmodul3"
+            android:layout_width="259dp"
+            android:layout_marginLeft="5dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="Modul pertemuan 2 Pengenalan Layout"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</LinearLayout>
